@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>前端开发-李冕</title>
+    <!-- <link rel="stylesheet" href= "my-resume.css" type= "text/css"> -->
+    <style>
+        @font-face {
+  font-family: 'iconfont';  /* project id 227364 */
+  src: url('http://at.alicdn.com/t/font_be126r70onr8uxr.eot');
+  src: url('http://at.alicdn.com/t/font_be126r70onr8uxr.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_be126r70onr8uxr.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_be126r70onr8uxr.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_be126r70onr8uxr.svg#iconfont') format('svg');
+}
+
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-size: 20px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-stroke-width: 0.2px;
+            -moz-osx-font-smoothing: grayscale;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #layout {
+            width: 900px;
+            /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+            margin: 20px auto 0px auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #444;
+            background: #eee;
+        }
+
+        #header {
+            height: 320px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
+
+        }
+
+        div#photo-con {
+
+            width: 200px;
+            height: 320px;
+            text-align: center;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        #photo {
+            box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
+            width: 100px;
+            padding: 10px;
+            position: relative;
+            top: 20%;
+        }
+
+        #name-pre {
+            display: inline-block;
+            overflow: hidden;
+            width: 250px;
+            height: 320px;
+        }
+
+        #name {
+            font-size: 30px;
+            width: 2em;
+            margin-bottom: 10px;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #pre {
+            font-size: 20px;
+            width: 10em;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #contacts {
+            width: 420px;
+            height: 320px;
+            margin: 0%;
+            display: inline-block;
+            overflow: hidden;
+
+        }
+
+        #content {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        .time {
+            float: right;
+        }
+
+        .experi {
+            line-height: 2;
+        }
+    </style>
+</head>
+<body>
+<div id="layout">
+    <div id="header">
+        <!--<div id="photo-con">-->
+            <!--<img id="photo" src="http://i1.piimg.com/4851/33842aa313470723.jpg" alt="证件照,无法从网络获取照片">-->
+        <!--</div>-->
+        
+        <div id="name-pre"><p id="name">李冕</p><br>
+            <p id="pre">应聘岗位：前端开发</p>
+        </div>
+
+        <div id="contacts">
+            <h3>CONTACTS</h3>
+            <hr>
+            <p class="adress"><i class="iconfont">&#xe646; Adress: </i></p>
+            <p class="mobile"><i class="iconfont">&#xe631; Mobile: 13665658669</i></p>
+            <p class="email"><i class="icon iconfont">&#xe605; Email: limianhust@qq.com</i></p>
+            <p class="blog"><i class="icon iconfont">&#xe629; Blog: <a
+                    href="http://www.jianshu.com/u/2a554c5653cf">简书-技术心得，</a><a href="https://github.com/limianhust?tab=repositories">GitHub-项目展示</a></i>
+            </p>
+        </div>
+    </div>
+    <div id="content">
+        <div class="experi-ability">
+            <div class="work-experience">
+                <h2 class="header">工作经历</h2>
+                <hr>
+                <h4>学道科技实习 <span class="time">2016.11-4</span></h4>
+                <p>从事学道科技自有的资料分享平台移动网页端的开发，网站的功能有资料的分享，购买，有论坛功能。</p>
+                <h4>国家电网合肥供电公司<span class="time">2016.7-2017.3</span></h4>
+                <p>从事高压电气设备变电运维和检修。在工作过程中对互联网技术非常感兴趣，开始自学前端，决心投入到互联网行业从事编程工作。</p>
+                
+            </div>
+            <div class="experice-ablity">
+                <h2 class="header">职业技能及项目经历</h2>
+                <hr>
+                <div class="ability">
+                    <h3 class="header">职业技能</h3>
+                    <p class="html-css">
+                        <i class="iconfont">&#xe601;</i> <i class="iconfont">&#xe600;</i> 熟悉HTML 5, CSS 3,
+                        jQuery，理解HTML语义化，掌握各种响应式，自适应式布局。能熟练按照设计图切出像素级还原的页面，能熟练使用原生JavaScript, jQuery实现页面交互和组件开发，熟悉HTTP协议，熟悉<a
+                            href="https://github.com/limianhust/Ajax-Encapsulation">Ajax</a>。 <a
+                            href="https://limianhust.github.io/wuhan.html">静态页面作品</a>
+                    </p>
+
+                    <p class="js"><i class="iconfont">&#xe719;</i>
+                        熟练使用javascript语言，理解原型，原型链，理解面向对象编程，能按照面向对象思维做出简单的组件。熟练使用<a
+                                href="https://github.com/limianhust/Cross-domain">Node.js模拟后端数据进行调试</a>Node.js模拟后端数据进行调试
+                        <a href=""></a>
+                    </p>
+
+                    <p class="js"><i class="iconfont">&#xe617;</i>
+                        正在熟悉React中，熟悉组件开发模式，熟悉前后端分离开发模式<a
+                                href="https://github.com/limianhust/Cross-domain">熟练使用Node.js模拟后端数据进行调试</a>Node.js模拟后端数据进行调试
+                        <a href=""></a>
+                    </p>
+
+
+                    <p class="jq"><i class="iconfont">&#xe602;</i>熟悉c，python，c++等后端语言，有过C++开发经验，有较好的计算机基础和静态语言基础</p>
+                </div>
+                <div class="project">
+                    <h3 class="header">项目经历</h3>
+                    <ol>
+                        <li>
+                            <div class="project-item">
+                                <h4 class="header">前端组件开发</h4>
+                                <p class="component">
+                                    <a href="https://limianhust.github.io/React1/build/index.html">React小项目</a>
+                                    <p>README: 1. 用户在输入框写待办（Todo）。2. 回车即表示添加 Todo。3. 添加 Todo 后输入框清空。4. 每一个待办都可以标记为已完成。5. 每一个待办都能被删除。</p>
+                                </p>
+                                <p class="component">
+                                    <a href="https://limianhust.github.io/suggestion-Component/">suggestion组件展示，</a>
+                                    <a href="https://github.com/limianhust/suggestion-Component">suggestion组件源码</a>
+                                    <p>README: suggestion 组件，具有阻止过短时间内连续输入字符多次提交的功能，符合用户使用时直觉。</p>
+                                </p>
+                                <p class="component">
+                                    <a href="https://github.com/limianhust/Ajax-Encapsulation">原生Ajax封装</a>
+                                    <p>README: 对原生Ajax封装，支持可选请求方式get或post。</p>
+                                </p>
+                                <p class="component">
+                                    轮播组件，图片懒加载，瀑布流的练习小项目等
+                                    --><a href="https://github.com/limianhust?tab=repositories">链接</a>
+                                    <p>README: 对原生Ajax封装，支持可选请求方式get或post。</p>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-item">
+                                <h4 class="header">企业站-武汉速览</h4>
+                                <p class="webPage">
+
+                                    <a href="file:///Users/limian/githubPage/r.js/index.html">项目展示链接,</a>
+                                    <a href="https://github.com/limianhust/wuhan">项目源码</a>
+
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="project-item">
+                                <!--<h4 class="header">微电流检测系统上位机软件的研制</h4>-->
+                                <!--<p class="c++">-->
+                                    <!--项目描述：使用Visual-->
+                                    <!--C++6.0的MFC类库开发微电流检测主控软件，为使用者提供了人机交互接口，实现对全机各系统关键状态的监视、参数采集、信号实时显示及全机控制的任务。-->
+                                <!--</p>-->
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h2>教育背景</h2>
+                <hr>
+                <div class="bachelor">
+                    <h3>华中科技大学</h3>
+                    <p>2008-2012 获得电气工程及其自动化专业本科学位</p>
+                </div>
+                <div class="master">
+                    <h3>华中科技大学</h3>
+                    <p>2013-2016 获得电气工程专业硕士学位</p>
+                </div>
+            </div>
+            <!-- <div class="education">
+                <h2>自我推荐</h2>
+                <hr>
+                <p>
+                    我想以应届生的身份应聘贵公司，也会以应届生的心态来面对工作。或许我经验不足，但四个多月的学习经历也让我有了基本的前端基础。自开始自学前端以来，心态有了很大的成长，养成了长时间专注一件事的习惯，开始真正将编程作为自己的事业追求。自学过程中也是遇到一个个坑，但锻炼了搜索问题的能力，也能一个个解决。我做过了很多的静态页面，对页面布局，CSS的理解有了一定的深度。也练习了很多的JS小项，有了一定的JS语言基础，开始注重代码规范性。
+                    
+                </p>
+            </div> -->
+        </div>
+    </div>
+</div>
+</body>
+</html>
