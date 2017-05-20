@@ -38,8 +38,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-520">
-              <caret line="126" column="73" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
+            <state relative-caret-position="-1480">
+              <caret line="184" column="84" selection-start-line="184" selection-start-column="84" selection-end-line="184" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -236,6 +236,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="62cf7006-bf3a-4200-923f-224865318aec" name="Default" comment="" />
@@ -252,12 +255,12 @@
       <workItem from="1486521405123" duration="9645000" />
       <workItem from="1491476446241" duration="696000" />
       <workItem from="1491527788060" duration="2894000" />
-      <workItem from="1495201100040" duration="62000" />
+      <workItem from="1495201100040" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25547000" />
+    <option name="totallyTimeSpent" value="26301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="820" extended-state="6" />
@@ -283,6 +286,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -347,8 +358,8 @@
     <entry file="file://$PROJECT_DIR$/my-resume.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-520">
-          <caret line="126" column="73" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="73" />
+        <state relative-caret-position="-1480">
+          <caret line="184" column="84" selection-start-line="184" selection-start-column="84" selection-end-line="184" selection-end-column="84" />
           <folding />
         </state>
       </provider>
